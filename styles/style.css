@@ -1,0 +1,44 @@
+
+.navBar{
+    display: flex;
+    justify-content: center;    
+}
+
+.navBarElements{
+    width: 30%;
+    text-align: center;
+    display: flex;
+	justify-content: space-around;
+    font-family: helvetica;
+    font-size: 30px;
+}
+
+.navBarButton {
+    text-decoration: none;
+    color: #F9C6C9;
+}
+
+.navBarButton:hover{
+    text-decoration: none;
+    color: #C9E4DE;
+}
+
+#intro{
+    color: #C9E4DE;
+    font-family: helvetica;
+}    
+
+#introFSD{
+    color: #C6DEF1;
+    font-family: helvetica;
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+}
+
+.mainIntro{
+    margin-top:50px;
+
+}
+
+
