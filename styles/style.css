@@ -11,6 +11,9 @@
 	justify-content: space-around;
     font-family: helvetica;
     font-size: 30px;
+	max-width: 100%;
+
+
 }
 
 .navBarButton {
@@ -28,6 +31,12 @@
     font-family: helvetica;
 }    
 
+.introContainer{
+	margin: 10px 0px 10px 0px;
+    display: flex;
+	justify-content: flex-start;
+}
+
 #introFSD{
     color: #C9E4DE;
     font-family: helvetica;
@@ -38,7 +47,33 @@
 
 .mainIntro{
     margin-top:50px;
+    
+}
 
+.mainHeader {
+    max-width: 200%;
+    height: 200px
+
+}
+
+.mainCoverImage {	
+    max-width: 100%;
+    background-color: #c6def1;
+    height: 400px;
+}
+
+.clouds {
+    width: 50px;
+    
+}
+
+.movingCloud{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+    transition-timing-function:  ease;
+    transition-property: opacity, left;
+    transition-duration: 2s, 4s;
 }
 
 
