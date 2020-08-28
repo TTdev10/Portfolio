@@ -33,29 +33,22 @@
 
 /* Autum leave *//////////
 
-div#autumnleaves {
-	position: absolute;
-}
-
-div#autumnleaves1 {
-	position: absolute relative;
-}
-
-img[alt="autumn leaf"] {
-	position: absolute;
-	width: 20%;
-	transform-origin: 0px -400px 0px;
-	animation-name: fall, sway;
-	animation-duration: 3s, 5s;
-	animation-fill-mode: both;
-	animation-timing-function: linear, ease-in-out;
-}
-
 @keyframes sway { 
 	0% { 
-		transform: rotateZ(-20deg) rotateX(55deg);
+		transform: rotateZ(-15deg) rotateX(55deg);
 	}
-
+    30% {
+		transform: rotateZ(20deg) rotateX(60deg);
+		animation-timing-function: ease-in-out;
+	}
+	60% { 
+		transform: rotateZ(-20deg) rotateX(55deg);
+		animation-timing-function: ease-in-out;
+	}
+    100% {
+		transform: rotateZ(0deg) rotateX(58deg);
+		animation-timing-function: cubic-bezier(0.990, 0.000, 0.890, 0.435);
+		}
 }
 @keyframes fall { 
 	60% {
@@ -65,6 +58,24 @@ img[alt="autumn leaf"] {
 		margin-top: 500px;
 		filter: drop-shadow(0px 5px 8px rgba(0,0,0,0.6));
 	}
+}
+div#autumn-container {
+	width: 768px;
+	height: 400px;
+	border: 1px solid #000;
+	overflow: hidden;
+	position: relative;
+	perspective: 1800px;
+	}
+    
+img[alt="autumn leaf"] {
+	position: absolute;
+	width: 33%;
+	transform-origin: 0px -400px 0px;
+	animation-name: fall, sway;
+	animation-duration: 5s, 3s;
+	animation-fill-mode: both;
+	animation-timing-function: linear, ease-in-out;
 }
 
 /* Index *////////////////////
@@ -148,7 +159,7 @@ img[alt="autumn leaf"] {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
 #autumnleaves {
     color: #f7d9c4;
     font-family: helvetica;
