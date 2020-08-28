@@ -1,5 +1,5 @@
 
-/* Nav bar */
+/* Nav bar *///////
 
 .navBar{
     width: 100%;
@@ -31,20 +31,22 @@
     color: #c9e4de;
 }
 
-/* Autum leave */
+/* Autum leave *//////////
 
-div#autumnleav {
-	width: 768px;
-	height: 500px;
+div#autumnleaves {
 	position: absolute;
+}
+
+div#autumnleaves1 {
+	position: absolute relative;
 }
 
 img[alt="autumn leaf"] {
 	position: absolute;
-	width: 50%;
+	width: 20%;
 	transform-origin: 0px -400px 0px;
 	animation-name: fall, sway;
-	animation-duration: 7s, 8s;
+	animation-duration: 3s, 5s;
 	animation-fill-mode: both;
 	animation-timing-function: linear, ease-in-out;
 }
@@ -65,26 +67,20 @@ img[alt="autumn leaf"] {
 	}
 }
 
-/////////////* Index *////////////////////
+/* Index *////////////////////
 
 #introMain{
-    color: black(255, 255, 255);
     font-family: sans-serif;
     text-shadow: 2px 2px 3px whitesmoke;
+    color: #f7d9c4;
+    justify-content: center;
 	
 }    
 
 .introContainer{
 	margin: 10px 0px 10px 0px;
     display: flex;
-	justify-content: flex-start;
-}
-
-#introFSD{
-    color: rgb(112, 124, 43);
-    font-family: helvetica;
-    display: flex;
-    flex-flow: row-reverse wrap;
+	justify-content: center;
 
 }
 
@@ -152,7 +148,12 @@ img[alt="autumn leaf"] {
     font-size: 20px;
 }
 
-
+@media only screen and (max-width: 600px) {
+#autumnleaves {
+    color: #f7d9c4;
+    font-family: helvetica;
+    font-size: 20px;
+}
 
 
 
