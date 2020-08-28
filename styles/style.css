@@ -1,34 +1,42 @@
 
+/* index */
+.backgroundimage {
+  background-image: url("../img/woodenBackground.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover
+}
+
 .navBar{
     display: flex;
-    justify-content: center;    
+    justify-content: ;    
 }
 
 .navBarElements{
     width: 30%;
-    text-align: center;
+    text-align: left;
     display: flex;
 	justify-content: space-around;
-    font-family: helvetica;
-    font-size: 30px;
 	max-width: 100%;
-
 }
 
 .navBarButton {
     text-decoration: none;
-    color: #F9C6C9;
+    color: #262A10;
+    font-family: helvetica;
+    font-size: 30px;
 }
 
 .navBarButton:hover{
     text-decoration: none;
-    color: #C9E4DE;
+    color: #8CAE68;
 }
 
-#intro{
-    color: #C9E4DE;
+#introMain{
+    color: #8CAE68;
     font-family: helvetica;
-    display: flex
+    text-shadow: 2px 2px 3px #0f0c0c;
+	
 }    
 
 .introContainer{
@@ -38,7 +46,7 @@
 }
 
 #introFSD{
-    color: #C9E4DE;
+    color: #262A10;
     font-family: helvetica;
     display: flex;
     flex-flow: row-reverse wrap;
@@ -62,34 +70,55 @@
     height: 400px;
 }
 
+.headingOne{
+    text-align: center;
+	color: #262A10
+}
+
+/* about  */
 #about{
-    color: #C9E4DE;
+    color: #262A10;
     font-family: helvetica;
     text-align: center;
-
+    
 }
 
-.aboutMe{
-    text-align: center;
-    font-family: helvetica;
-    font-size: 16px;
-    color: #6d6875;
+.aboutSection{
+    display: flex;
+	flex-direction: column;
 }
 
+.aboutSubheading{
+   text-align: center;
 
-.clouds {
-    width: 50px;
+}
+.aboutSection p{
+	margin: auto 10%;
    
 }
 
-.movingCloud{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-    transition-timing-function:  ease;
-    transition-property: opacity, left;
-    transition-duration: 2s, 4s;
+/* contact */
+#contactForm {
+	border: 2px solid grey;
+	padding: 20px 25px 20px 25px;
+    width: 40%;
+    margin: 0 auto; 
 }
+
+#contactForm input {
+	margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+.navBarButton {
+    text-decoration: none;
+    color: #F9C6C9;
+    font-family: helvetica;
+    font-size: 20px;
+}
+
+
+
 
 
 
