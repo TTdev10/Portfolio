@@ -2,40 +2,37 @@
 /* Nav bar */
 
 .navBar{
-    width: 100%;
-    height: 80px;
+    width: 90%;
+    height: 60px;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row-reverse;
     align-items: center;
 
-    
 }
 
 .navBarElements{
-    width: 100%;
+    width: 90%;
     
     
 }
 
 .navBarButton {
     text-decoration: none;
-    color: #f9c6c9;
+    color: #6d6875;
     font-family: helvetica;
     font-size: 30px;
 }
 
 .navBarButton:hover{
     text-decoration: none;
-    color: #c9e4de;
+    color: #ffa69e;
 }
 
 /* Autumn leave */
 
 @keyframes sway { 
 	0% { 
-        transform: rotateZ(-20deg) rotateX(55deg);
-        animation-timing-function: ease-in-out;
+		transform: rotateZ(-20deg) rotateX(55deg);
 	}
     30% {
 		transform: rotateZ(20deg) rotateX(60deg);
@@ -47,15 +44,15 @@
 	}
     100% {
 		transform: rotateZ(0deg) rotateX(58deg);
-		animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+		animation-timing-function: cubic-bezier(0.990, 0.000, 0.890, 0.435);
 		}
 }
 @keyframes fall { 
 	60% {
-        filter: drop-shadow(0px 60px 40px rgba(0,0,0,0));
+        filter: drop-shadow(0px 70px 40px rgba(0,0,0,0));
 	}
 	100% {
-		margin-top: 700px;
+		margin-top: 500px;
 		filter: drop-shadow(0px 9px 8px rgba(0,0,0,0.6));
 	}
 }
@@ -64,23 +61,27 @@
 img[alt="autumn leaf"] {
 	position: absolute;
 	width: 33%;
+	transform-origin: 0px -400px 0px;
 	animation-name: fall, sway;
-	animation-duration: 5s, 3s;
+	animation-duration: 7s, 8s;
 	animation-fill-mode: both;
-	animation-timing-function: linear, ease-in-out;
+    animation-timing-function: linear, ease-in-out;
 }
+
 
 /* Index */
 
 body{
-    background-color: #FCF2ED
+    background-color: #e2e2df;
 }
 
 .homePage h1#name, .homePage #tag {
+    height: 200px;
     display: flex;
-    transition: 0.4s;
+    transition: 0.2s;
     cursor: default;
 }
+
 .homePage h1#name {
     text-align: center;
     font-size: 50px;
@@ -95,13 +96,11 @@ body{
     justify-content: center;
     color: #6d6875
 }
-
-
+    
 .homePage #name:hover, .homePage #tag:hover {
-    transform: translateY(40%);
+    transform: translateY(5%);
     color: #e5989b;
 }
-
 
 #tag{
     justify-content: center;
@@ -109,17 +108,16 @@ body{
 
 }   
 
-h1 {
-    font-size: 30px;
-    letter-spacing: -2px;
-    position: fixed;
-    margin: 15px 0 0 20px;
-   
+@media only screen and (max-width: 680px) {
+    .autumnleaves {
+/* For mobile phones: */
+   width: 400%;
+
 }
 
-h2,  {
-    font-size: 30px;
-    letter-spacing: -3px;
-    font-weight: 100;
-    align-items: flex-start;
+@media only screen and (max-width: 680px) {
+    .navBar {
+/* For mobile phones: */
+   width: 90%;
+
 }
