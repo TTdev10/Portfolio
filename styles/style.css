@@ -19,7 +19,7 @@
 .navBarButton {
     text-decoration: none;
     color: #6d6875;
-    font-family: helvetica;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
 }
 
@@ -53,10 +53,12 @@
         filter: drop-shadow(0px 70px 40px rgba(0,0,0,0));
 	}
 	100% {
-		margin-top: 500px;
-		filter: drop-shadow(0px 9px 8px rgba(0,0,0,0.6));
+		margin-top: 1000px;
+        opacity: 0.5%;
 	}
 }
+
+
 
 
 img[alt="autumn leaf"] {
@@ -66,8 +68,12 @@ img[alt="autumn leaf"] {
 	animation-name: fall, sway;
 	animation-duration: 7s, 8s;
 	animation-fill-mode: both;
-    animation-timing-function: linear, ease-in-out;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+
+
 
 
 /* Index */
@@ -95,7 +101,9 @@ body{
     margin-block-start: 0.70em;
     padding: 80;
     justify-content: center;
-    color: #6d6875
+    color: #6d6875;
+    font-family: 'Poppins', sans-serif;
+
 }
     
 .homePage #name:hover, .homePage #tag:hover {
@@ -106,24 +114,41 @@ body{
 #tag{
     justify-content: center;
     color: #6d6875;
+    font-family: 'Poppins', sans-serif;
 
 }   
 
 /* about */
 
+.headingOne{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 
+}
 
+.headingTwo{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
 .aboutSection  {
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+  
 }
 
 .aboutSectionContent{
-   width: 70%;
+   width: 80%;
    margin: 0 auto;
+   padding: 1%;
+   flex-direction: column;
+   text-align: center;
+ 
 }
+
+
+/* Media breaks */
 
 @media only screen and (max-width: 680px) {
     .autumnleaves {
