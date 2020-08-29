@@ -42,10 +42,10 @@ body{
     width: 30px;
     margin: 0px 25px 0px 0px;
 }
-/* .navSocialElements{
+.navSocialElements{
     display:flex;
     flex-direction: row;
-} */
+}
 
 /* Autumn leaves animation on all pages*/
 
@@ -174,9 +174,30 @@ body{
     text-align: center;
 }
 
+/* blog */
+
+.blogList{
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    border: 10px;
+    margin: auto 10%;
+}
+
+.blogPost{
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    margin: auto 10%;
+    padding: 20px;
+    border: 10px;
+    
+
+
+}
+
 
 
 /* Media breaks */
+
 @media only screen and (max-width: 1000px) {
     .navBarElementContainer {
    width: 100%;
