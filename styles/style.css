@@ -5,8 +5,8 @@
     width: 100%;
     height: 80px;
     display: flex;
-    justify-content: center;
-    flex-direction: row;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
     align-items: center;
 
     
@@ -14,7 +14,6 @@
 
 .navBarElements{
     width: 100%;
-    text-align: center;
     
     
 }
@@ -31,7 +30,7 @@
     color: #c9e4de;
 }
 
-/* Autum leave */
+/* Autumn leave */
 
 @keyframes sway { 
 	0% { 
@@ -57,7 +56,7 @@
 	}
 	100% {
 		margin-top: 700px;
-		filter: drop-shadow(0px 5px 8px rgba(0,0,0,0.6));
+		filter: drop-shadow(0px 9px 8px rgba(0,0,0,0.6));
 	}
 }
 
@@ -73,95 +72,54 @@ img[alt="autumn leaf"] {
 
 /* Index */
 
-#introMain{
-    font-family: sans-serif;
-    text-shadow: 2px 2px 3px whitesmoke;
-    color: #f7d9c4;
+body{
+    background-color: #FCF2ED
+}
+
+.homePage h1#name, .homePage #tag {
+    display: flex;
+    transition: 0.4s;
+    cursor: default;
+}
+.homePage h1#name {
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: -2px;
+    line-height: 0.78;
+    align-items: flex-end;
+    position: static;
+    margin: 30;
+    margin-block-end: 0.70em;
+    margin-block-start: 0.70em;
+    padding: 80;
     justify-content: center;
-	
-}    
-
-.introContainer{
-	margin: 10px 0px 10px 0px;
-    display: flex;
-	justify-content: center;
-
+    color: #6d6875
 }
 
-.mainIntro{
-    margin-top:50px;
-    
+
+.homePage #name:hover, .homePage #tag:hover {
+    transform: translateY(40%);
+    color: #e5989b;
 }
 
-.mainHeader {
-    max-width: 200%;
-    height: 200px
 
-}
-
-.mainCoverImage {	
-    max-width: 100%;
-    background-color: #c6def1;
-    height: 400px;
-}
-
-.headingOne{
-    text-align: center;
-	color: #262A10
-}
-
-/* about  */
-#about{
+#tag{
+    justify-content: center;
     color: #6d6875;
-    font-family: helvetica;
-    text-align: center;
-    
-}
 
-.aboutSection{
-    display: flex;
-	flex-direction: column;
-}
+}   
 
-.aboutSubheading{
-   text-align: center;
-
-}
-.aboutSection p{
-	margin: auto 10%;
+h1 {
+    font-size: 30px;
+    letter-spacing: -2px;
+    position: fixed;
+    margin: 15px 0 0 20px;
    
 }
 
-/* contact */
-#contactForm {
-	border: 2px solid grey;
-	padding: 20px 25px 20px 25px;
-    width: 40%;
-    margin: 0 auto; 
+h2,  {
+    font-size: 30px;
+    letter-spacing: -3px;
+    font-weight: 100;
+    align-items: flex-start;
 }
-
-#contactForm input {
-	margin-bottom: 10px;
-}
-
-@media only screen and (max-width: 600px) {
-.navBarButton {
-    text-decoration: none;
-    color: #F9C6C9;
-    font-family: helvetica;
-    font-size: 20px;
-}
-}
-
-@media only screen and (max-width: 500px) {
-#autumnleaves {
-    color: #f7d9c4;
-    font-family: helvetica;
-    font-size: 20px;
-}
-}
-
-
-
-
-
