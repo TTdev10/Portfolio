@@ -1,4 +1,4 @@
-/* body and html on all pages */
+/* Body and html on all pages */
 html{ 
     overflow-y: scroll; 
     overflow-x:hidden; 
@@ -37,6 +37,15 @@ body{
     color: #ffa69e;
 }
 
+.navBarLeaf{
+   font-size: 30px;  
+   color: #6d6875;
+   text-decoration: none;
+}
+
+.navBarLeaf:hover{
+    color:#2a9d8f;
+}
 
 /* Nav Bar Social on all pages */
 
@@ -145,8 +154,7 @@ img[alt="autumn leaf"] {
 
 }   
 
-/* about page */
-
+/* About page */
 
 .headingOne{
     text-align: center;
@@ -177,7 +185,7 @@ img[alt="autumn leaf"] {
  
 }
 
-/* project page */
+/* Project page */
 
 .projectsSection {
     width: 100%;
@@ -239,14 +247,37 @@ img[alt="autumn leaf"] {
     padding: 20px;
     border: 10px;
     
+}
 
+/* Contact */
+
+.formContainter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    
+}
+
+.contactForm{
+    margin: auto 5%;
+    width:80%; 
+    padding: 35px 25px 30px 25px;
+    font-family: 'Poppins', sans-serif;
+ 
+
+}
+
+#contactInput{ 
+    width: 70%;
+    font-family: 'Poppins', sans-serif;
 
 }
 
 
 /* Media breaks */
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
     .navBarElementContainer {
         width: 100%;
         display: flex;
@@ -256,16 +287,16 @@ img[alt="autumn leaf"] {
         margin: 75px 0px 0px 25px;
         }
     .navSocialElements {
-        margin: 25px 0px 0px 0px;
+        margin: 30px 0px 0px 0px
         }
     .navBarButton {
-        font-size: 17px;
-        } 
+        font-size: 10px;
+    }
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 600px) {
     .autumnleaves {
-        width: 300%;
+        width: 100%;
     }
 }
 
