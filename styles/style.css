@@ -1,4 +1,4 @@
-/* body on all pages */
+/* body and html on all pages */
 html{ 
     overflow-y: scroll; 
     overflow-x:hidden; 
@@ -139,6 +139,7 @@ body{
 
 /* about page */
 
+
 .headingOne{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -170,23 +171,51 @@ body{
 
 /* project page */
 
-.projectImages{
-    text-align: center;
-    justify-content: space-around;
-    overflow: hidden;
-    padding: 100px;
-    cursor: pointer;
-
- }
-
-.projectImg:hover{
-    color: #c9e4de;
-   
+.projectsSection {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-    
+
+.projectsContainer {
+    margin: 25px 0px 25px 0px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projectsElementContainer {
+    margin: 25px 0px 0px 25px;
+    width: 350px;
+    height: 400px;
+    overflow: hidden;
+
+}
+
+.projectsImages{
+    width: 100%;
+
+}
+.projectsElement{
+    width: 200%;
+    height: 300px;
+}
+
+.projectsHeading{
+    font-family: 'Poppins', sans-serif;
+}
+
+ .projectsParagraph{
+    font-family: 'Poppins', sans-serif;
+ }   
 
 
-/* blog */
+/* Blog */
 
 .blogList{
     font-family: 'Poppins', sans-serif;
@@ -212,36 +241,35 @@ body{
 
 @media only screen and (max-width: 1000px) {
     .navBarElementContainer {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   margin: 75px 0px 0px 25px;
-    }
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 75px 0px 0px 25px;
+        }
     .navSocialElements {
         margin: 25px 0px 0px 0px;
-    }
+        }
     .navBarButton {
         font-size: 17px;
-    } 
+        } 
 }
 
 @media only screen and (max-width: 680px) {
     .autumnleaves {
-/* For mobile phones: */
-   width: 300%;
+        width: 300%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .navBarElementContainer {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   margin: 75px 0px 0px 25px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 75px 0px 0px 25px;
     }
     .navSocialElements {
         margin: 25px 0px 0px 0px;
