@@ -67,7 +67,6 @@ body{
 }
 
 
-
 /* Autumn leaves animation on all pages*/
 
 @keyframes sway { 
@@ -161,7 +160,6 @@ img[alt="autumn leaf"] {
     font-family: 'Poppins', sans-serif;
     padding: 30px;
     
-
 }
 
 .headingTwo{
@@ -172,8 +170,7 @@ img[alt="autumn leaf"] {
 .aboutSection  {
     width: 100%;
     display: flex;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif; 
   
 }
 
@@ -299,12 +296,6 @@ img[alt="autumn leaf"] {
     display: flex;
    
 }
-
-  
-        
- 
-
-
 
 /* Media breaks */
 

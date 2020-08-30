@@ -1,0 +1,155 @@
+commit 2777d3f298dc6ac90eda2b3073232635ab29bacc
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 17:56:44 2020 +1000
+
+    footer added to all pages
+
+commit 29787989bf966d3a6f0b1bd844d4c58c9b99d211
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 17:09:09 2020 +1000
+
+    contact page added with form
+
+commit 65d386157514363f3e2a9d5c6b56e3ab0a65367a
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 12:35:27 2020 +1000
+
+    social media icons updated to add hover effects on all pages
+
+commit e424fc576482bd8f65a5bdfc2819dd73057c9809
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 12:01:27 2020 +1000
+
+    project page updated with placeholder text and images
+
+commit 19b6d2b14e152d9a4aef35b7d74c919d1f353116
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 01:50:22 2020 +1000
+
+    project page update with images
+
+commit e5a310b6c24cc9a60139bd6174b57446c65dd5d4
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 01:25:58 2020 +1000
+
+    blog posts added to blog page
+
+commit 820e4070ca3bfdc3e537b616064f8d31b6f62ead
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 23:40:51 2020 +1000
+
+    blog post entries added
+
+commit d1a7d0f4edf892d288fc070bd1078c7f3a62a952
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 22:17:42 2020 +1000
+
+    css animation leaf added to all html pages
+
+commit 3aaf50cfecea792e722d71efa9e32318afe0566f
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 21:53:28 2020 +1000
+
+    add social media links to the main page and make it responsive on mobile
+
+commit d3998b4e40f86b78f17a234fb72083517573f41c
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 18:33:34 2020 +1000
+
+    added opacity and infinite in the leaf animation
+
+commit 31d0ef3b9bad688bcba167c77fdfbfe20180fbc7
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 17:26:36 2020 +1000
+
+    about page updated
+
+commit 3eec2aecd132e5b8f722a908f03c9bee842aa698
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 15:33:23 2020 +1000
+
+    main index page updated with background colour and animation
+
+commit 376f9096cac85f4803b4ac7168ec586b53990eca
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 13:44:52 2020 +1000
+
+    style name and added animation
+
+commit e5928c976b51e4af5ec56dd2883673bf566e8946
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sat Aug 29 00:40:44 2020 +1000
+
+    leaf css animation added to the index page
+
+commit af052e635f012aafdecb3c1fe58e4212c06ff397
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Aug 28 22:42:32 2020 +1000
+
+    initialised website repo onto main computer to be accessed by visual studio code
+
+commit ae835d1e3fd189b24ccb6a9c9cdba426b4b4a66c
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Fri Aug 28 11:55:52 2020 +0000
+
+    leaf added to the index page with animation
+
+commit 9b149097d98d3dd5174ad7972d5498804458bd83
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Fri Aug 28 09:22:24 2020 +0000
+
+    add yellow leaf into the index with animation
+
+commit 3f77d9ffb12cadb770835320d8031dc8b2727e3b
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Fri Aug 28 03:01:58 2020 +0000
+
+    add background image across all the pages
+
+commit 3ddb69db67ba7f53af80dda93ef0b7112581a8ee
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Thu Aug 27 12:33:49 2020 +0000
+
+    form added to the contact page
+
+commit 692aa39b1a35f17377abc30c538e79343c91dabe
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Thu Aug 27 11:45:04 2020 +0000
+
+    about page updated with education, work history and resume
+
+commit 6022803410a429a0f28e78e4a26fd1d5a17f5daf
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Thu Aug 27 06:28:27 2020 +0000
+
+    add blue centre background and clouds to the homepage
+
+commit b8354e90a401c7f17aae4e02e8fce403e447204a
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Wed Aug 26 13:17:41 2020 +0000
+
+     added the basic html structures and styling to nav bars on the html files
+
+commit 066d0e0b0fd827f9e9669d5ae625bf073bfe542a
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Wed Aug 26 12:58:25 2020 +0000
+
+    add styling to homepage
+
+commit c72c28c1841278f2e0d7017fa1da6aa9a180598f
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Wed Aug 26 12:03:33 2020 +0000
+
+    added nav bar in homepage
+
+commit 49b5383391ad84cb36b0d0d4b007a154a4ce962b
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Wed Aug 26 10:26:44 2020 +0000
+
+    add basic html structures to html pages
+
+commit 41fa9f882433d7cc45da0151aa8bb0d02e4d1e12
+Author: Tracey Tran <tracey@gmail.com>
+Date:   Wed Aug 26 10:08:58 2020 +0000
+
+    created porfolio repository which includes the html and css files
