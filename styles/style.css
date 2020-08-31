@@ -158,7 +158,8 @@ img[alt="autumn leaf"] {
 .headingOne{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding: 30px;
+    padding: 10px;
+    background-color: teal;
     
 }
 
@@ -171,15 +172,25 @@ img[alt="autumn leaf"] {
     width: 100%;
     display: flex;
     font-family: 'Poppins', sans-serif; 
+    background-color: yellow;
   
 }
 
 .aboutSectionContent{
-   width: 80%;
-   margin: 0 auto;
-   padding: 1%;
+   width: 90%;
+   margin: auto 10%;
+   padding: 5%;
    text-align: center;
+   background-color: #ffa69e;
  
+}
+
+.aboutPhoto{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
 }
 
 /* Project page */
