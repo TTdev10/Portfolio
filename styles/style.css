@@ -49,6 +49,15 @@ h4{
     color:#2a9d8f;
 }
 
+#home .burger div {
+    width: 25px;
+    height: 3px;
+    background-color: #000000;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
 /* Nav Bar Social on all pages */
 
 .navSocialButton {
@@ -118,7 +127,7 @@ img[alt="autumn leaf"] {
     height: 200px;
     display: flex;
     transition: 0.2s;
-    cursor: default;
+    cursor: pointer;
 }
 
 .homePage h1#name {
@@ -159,9 +168,7 @@ img[alt="autumn leaf"] {
 .headingOne{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    padding: 10px;
-
-    
+   
 }
 
 .aboutPhoto{
@@ -292,7 +299,7 @@ img[alt="autumn leaf"] {
 }
 
 .projectsHeading{
-    font-family: 'Poppins', sans-serif; */
+    font-family: 'Poppins', sans-serif; 
 } 
 
  .projectsParagraph{
@@ -315,15 +322,12 @@ img[alt="autumn leaf"] {
     margin: auto 10%;
     border: 10px;
 
-    
 }
 
 .blogImages{
     display: flex;
-   
-
-    
 }
+   
 
 .line{
     border-top: 5px dotted #e5989b;
@@ -383,7 +387,7 @@ img[alt="autumn leaf"] {
 
 /* Media breaks */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .navBarElementContainer {
         width: 100%;
         display: flex;
@@ -402,24 +406,25 @@ img[alt="autumn leaf"] {
 
 @media only screen and (max-width: 600px) {
     .autumnleaves {
-        width: 100%;
+        width: 200%;
     }
 }
 
 @media only screen and (max-width: 600px) {
     .navBarElementContainer {
         width: 100%;
-        display: flex;
+         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin: 75px 0px 0px 25px;
-    }
+        margin: 40px 0px 0px 40px;
+    
+    } 
     .navSocialElements {
-        margin: 25px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
     }
     .navBarButton {
-        font-size: 17px;
-    } 
-}
+        font-size: 20px;
+    }  
 
+}  
