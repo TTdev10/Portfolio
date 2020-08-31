@@ -9,7 +9,9 @@ body{
     background-color: #e2e2df;
 }
 
-
+h4{
+  font-family: 'Poppins', sans-serif;
+}
 /* Nav bar on all the pages*/
 
 .navBar{
@@ -72,7 +74,7 @@ body{
 @keyframes sway { 
 	0% { 
         transform: rotateZ(-20deg) rotateX(55deg);
-        animation-timing-function: ease-in-out;
+        animation-timing-function: linear;
 	}
     30% {
 		transform: rotateZ(20deg) rotateX(60deg);
@@ -80,7 +82,7 @@ body{
 	}
 	60% { 
 		transform: rotateZ(-20deg) rotateX(55deg);
-		animation-timing-function: ease-in-out;
+		
 	}
     100% {
 		transform: rotateZ(0deg) rotateX(58deg);
@@ -100,7 +102,6 @@ body{
 
 img[alt="autumn leaf"] {
 	position: absolute;
-	width: 33%;
 	transform-origin: 0px -400px 0px;
 	animation-name: fall, sway;
 	animation-duration: 7s, 5s;
@@ -163,6 +164,14 @@ img[alt="autumn leaf"] {
     
 }
 
+.aboutPhoto{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+
 .headingTwo{
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -172,8 +181,33 @@ img[alt="autumn leaf"] {
     width: 100%;
     display: flex;
     font-family: 'Poppins', sans-serif; 
-    background-color: yellow;
+   
   
+}
+
+.aboutIconsContainer{
+    width: 70%;
+    margin: auto 10%;
+    padding: 5%;
+    text-align: center;
+    
+
+}
+
+.abouthtml, .aboutcss, .aboutgit { 
+    font-size: 64px;
+
+
+}
+
+.abouthtml:hover{
+    color: #e85d04;
+}
+
+
+.aboutcss:hover{
+    color: #168dcc;
+
 }
 
 .aboutSectionContent{
@@ -181,17 +215,10 @@ img[alt="autumn leaf"] {
    margin: auto 10%;
    padding: 5%;
    text-align: center;
-   background-color: #ffa69e;
+  
  
 }
-
-.aboutPhoto{
-    height: auto;
-    width: auto;
-    display: flex;
-    justify-content: center;
-    opacity: 0.8;
-}
+ß
 
 /* Project page */
 
@@ -254,7 +281,13 @@ img[alt="autumn leaf"] {
     margin: auto 10%;
     padding: 20px;
     border: 10px;
+    background-color: yellow;
     
+}
+
+.blogImages{
+    display: flex;
+    background-color: teal;
 }
 
 /* Contact */
