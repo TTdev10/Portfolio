@@ -281,13 +281,17 @@ img[alt="autumn leaf"] {
     margin: auto 10%;
     padding: 20px;
     border: 10px;
-    background-color: yellow;
     
 }
 
 .blogImages{
     display: flex;
-    background-color: teal;
+    
+}
+
+.line{
+    border-top: 5px dotted #e5989b;
+    
 }
 
 /* Contact */
