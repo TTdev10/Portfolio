@@ -36,7 +36,7 @@ h4{
 }
 .navBarButton:hover{
     text-decoration: none;
-    color: #ffa69e;
+    color: #2a9d8f;
 }
 
 .navBarLeaf{
@@ -82,7 +82,7 @@ h4{
 	}
 	60% { 
 		transform: rotateZ(-20deg) rotateX(55deg);
-		
+		animation-timing-function: ease-in-out;
 	}
     100% {
 		transform: rotateZ(0deg) rotateX(58deg);
@@ -160,7 +160,7 @@ img[alt="autumn leaf"] {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     padding: 10px;
-    background-color: teal;
+
     
 }
 
@@ -226,7 +226,8 @@ img[alt="autumn leaf"] {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    
 }
 
 .projectsContainer {
@@ -237,7 +238,8 @@ img[alt="autumn leaf"] {
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: thistle;
+   
+  
 }
 
 .projectsElementContainer {
@@ -245,7 +247,7 @@ img[alt="autumn leaf"] {
     width: 350px;
     height: 400px;
     overflow: hidden;
-    background-color:green;
+    background-color:#2a9d8f;
     position: relative;
 
 }
@@ -254,6 +256,7 @@ img[alt="autumn leaf"] {
     width: 100%;
     display: block;
     height: auto;
+    
 
 }
 .overlay {
@@ -261,7 +264,6 @@ img[alt="autumn leaf"] {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #008CBA;
     overflow: hidden;
     width: 100%;
     height: 0;
@@ -289,13 +291,13 @@ img[alt="autumn leaf"] {
     height: 300px;
 }
 
-/* .projectsHeading{
-    font-family: 'Poppins', sans-serif;
-} */
+.projectsHeading{
+    font-family: 'Poppins', sans-serif; */
+} 
 
- /* .projectsParagraph{
+ .projectsParagraph{
     font-family: 'Poppins', sans-serif;
- }    */
+ }    
 
 
 /* Blog */
