@@ -1,4 +1,5 @@
 /* Body and html on all pages */
+
 html{ 
     overflow-y: scroll; 
     overflow-x:hidden; 
@@ -9,10 +10,28 @@ body{
     background-color: #e2e2df;
 }
 
-h4{
+.h4{
   font-family: 'Poppins', sans-serif;
 }
-/* Nav bar on all the pages*/
+
+
+#Main {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title {
+    display: block;
+    position: relative;
+    text-align: center;
+    padding: 2%;
+    color: #22181c;
+  }
+  
+/*  Nav bar on all the pages*/
 
 .navBar{
     width: 100%;
@@ -20,6 +39,7 @@ h4{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .navBarElementContainer {
@@ -148,8 +168,8 @@ img[alt="autumn leaf"] {
 }
     
 .homePage #name:hover, .homePage #tag:hover {
-    transform: translateY(10%);
-    color: #e5989b;
+    transform: translateY(10%); 
+    color:  #F13F79;
 }
 
 .homePage {
@@ -229,41 +249,20 @@ img[alt="autumn leaf"] {
 /* Project page */
 
 
-#portfolioMain {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color:yellow;
-    justify-content: space-around
-}
-
-  .title {
-    display: block;
-    position: relative;
-    text-align: center;
-    padding: 2%;
-    background-color: white;
-    color: #22181c;
-  }
-  
-  /* graphical compnent  */
-  
   .portfolioimg {
     height: 400px;
     width: 100%;
     object-fit: contain;
     display: block;
-    background-color: teal;
     justify-content: space-around;
   }
   
   .portfolioimg img {
     width: 100%;
     height: 100%;
-    justify-content: space-around;
+    
   }
-  
+
   .portfolioLink {
     margin-top: 10px;
     text-decoration: none;
@@ -272,12 +271,13 @@ img[alt="autumn leaf"] {
     padding: 0.4em 0.4em;
     border: 2px solid #f13030;
     text-align: center;
-    color: white;
+    color: #6d6875;
+    
   }
   
   .portfoliolink:hover {
     transform: scale(1.2);
-    background-color: #f13030;
+    background-color:#6d6875;
   }
   
   .portfolioContainer {
@@ -297,7 +297,7 @@ img[alt="autumn leaf"] {
     width: 100%;
     opacity: 0;
     transition: 0.5s ease;
-    background-color: #81c90;
+    background-color: #f9c6c9;
   }
   
   .portfolioContainer:hover .portfolioOverlay {
@@ -305,7 +305,7 @@ img[alt="autumn leaf"] {
   }
   
   .portfolioText {
-    color: white;
+    color: #6d6875;
     font-size: 1.2em;
     position: absolute;
     top: 50%;
@@ -317,11 +317,11 @@ img[alt="autumn leaf"] {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
   }
   
 
-
-/* Blog */
+/*  Blog page */
 
 .blogList{
     font-family: 'Poppins', sans-serif;
@@ -350,6 +350,63 @@ img[alt="autumn leaf"] {
 
 /* Contact */
 
+/* contact form section */
+
+.wrapper{
+    box-sizing: content-box; 
+    padding: 20px;
+    border: 4px solid #ffe5cc;
+    background: #83AE92;
+    background: -webkit-linear-gradient(right, #83AE92, #A49EA1);
+    background: -moz-linear-gradient(right, #83AE92, #A49EA1);
+    background: linear-gradient(to left, #83AE92, #A49EA1);
+    margin: 2em 3em;
+    border-radius: 6px;
+  }
+  
+  input[type=text],input[type=email], textarea {
+      width: 100%;
+      padding: 12px;
+      border: 3px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+  input[type=text]:focus,input[type=email]:focus, textarea:focus {
+      border: 3px solid pink;
+  }
+  
+  /* Add styles to the submit button */
+
+  input[type=submit] {
+      background: #ffa69e;
+      margin: 0 auto;
+      outline: 0;
+      color: white;
+      border: 0;
+      padding: 12px 24px;
+      border-radius: 4px;
+      position: relative;
+      display: inline-block;
+      text-align: center;
+  }
+  
+  /* Style 'hover' property */
+
+  input[type=submit]:hover {
+      background: #2196F3;
+  }
+  .wrapper label{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+  }
+
+/* .contacText{
+    font-family: 'Poppins', sans-serif;
+}
+
 .formContainter{
     display: flex;
     justify-content: center;
@@ -371,7 +428,7 @@ img[alt="autumn leaf"] {
     width: 70%;
     font-family: 'Poppins', sans-serif;
 
-}
+} */
 
 /* Footer */
 
@@ -455,7 +512,7 @@ img[alt="autumn leaf"] {
         align-content: center;
         padding: 15px;
       }
-      /* grpahical component  */
+      
       .portfolioimg {
         background-color: lightblue;
         height: 300px;
@@ -463,3 +520,5 @@ img[alt="autumn leaf"] {
       .portfolioText {
         font-size: 1em;
       }
+
+    }

@@ -36,20 +36,24 @@
 
 <!-- Autumn leaves animation across all pages -->
 
-    <section id="autumnLeaves">
-      <img src="../img/greenleaf1.png" alt="autumn leaf" style=" width:3% ;right: 100px; animation-delay:1s">
-      <img src="../img/yellowleaf1.png" alt="autumn leaf" style=" width:3% ;left: 100px; animation-delay:1.5s">
-    </section>
+      <section id="autumnLeaves">
+        <img src="../img/greenleaf1.png" alt="autumn leaf" style=" width:3% ;right: 100px; animation-delay:1s">
+        <img src="../img/yellowleaf1.png" alt="autumn leaf" style=" width:3% ;left: 100px; animation-delay:1.5s">
+      </section>
 
-    <header class="headingOne">
-            <h1>Let's Connect</h1>   
-            <p>Thank you for visiting my website.
+      <main id="Main">
+          <div class="title">
+            <h1 class="headingOne">Let's Connect</h1>
+            <p class="contacText">Thank you for visiting my website.
               Feel free to contact me via direct message or the links at the top.</p>
-    </header>
-    
+          </div>
+      </main>
+      
+ 
+  
     <!-- Contact Form  -->
 
-    <section class="formContainer">
+    <!-- <section class="formContainer">
         <form class="contactForm">
               <label  for="name">Name:</label> <br></br>
                   <input id="contactInput"type="text" id="name" name="fname" value="Jane Smith"><br></br>
@@ -59,8 +63,30 @@
               <textarea id="contactInput"id="textarea" name="message" rows="4" cols="20"> How can we help?</textarea> <br></br>
                   <input type="submit" value="Submit"> 
         </form>  
-	   </section> 
+	   </section>  -->
 
+     <div class="wrapper">
+      <form action="#" name="contact_form">
+          <div class="nameform">
+              <label for="first_name">Name</label>
+              <input name="first_name" type="text" required="" value="Jane Smith">
+          </div>
+          <div class="emailform">
+              <label for="email">Email</label>
+              <input name="email" type="email" required="" value="janesmith@gmail.com">              
+          </div>
+          <div class="msgform">
+              <label for="message">Message</label><br>
+              <textarea name="message" cols="30" rows="10" value="How can we help?"> </textarea>
+          </div>
+          <div class="submit">
+              <input type="submit" value="Submit">
+          </div>
+      </form>
+  </div>
+
+
+     
    <!-- footer -->
      
    <footer class="mainFooter">
