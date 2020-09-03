@@ -187,7 +187,6 @@ img[alt="autumn leaf"] {
 /* About page */
 
 .headingOne{
-    text-align: center;
     font-family: 'Poppins', sans-serif;
    
 }
@@ -211,6 +210,12 @@ img[alt="autumn leaf"] {
     font-family: 'Poppins', sans-serif; 
    
   
+}
+
+
+.hobbies{
+    font-size: 30px;
+
 }
 
 .aboutIconsContainer{
