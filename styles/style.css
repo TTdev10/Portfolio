@@ -188,48 +188,88 @@ img[alt="autumn leaf"] {
 
 .headingOne{
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;   
    
+}
+
+.headingTwo{
+    font-family: 'Poppins', sans-serif;
+    
+  
+
+}
+
+.aboutSectionMain {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.aboutSection  {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif; 
 }
 
 .aboutPhoto{
     height: auto;
     width: auto;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     opacity: 0.8;
+    
 }
 
-.headingTwo{
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-
-}
-.aboutSection  {
-    width: 100%;
+.aboutSectionContent{
+    width: 70%;
+    margin: auto 5%;
+    padding: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutText{
     font-family: 'Poppins', sans-serif; 
-   
+    display: flex;
+    align-content: center;
   
 }
 
+.aboutIcon{
+    font-size: 30px;
+    display: flex;
+
+}
+
+.aboutSectionCentre {
+    width: 100%;
+    margin: auto 10%;
+    padding: 40px;
+
+}
+
+/* Resume download */
+
+.resume{
+    margin: auto 20%;
+    padding: 40px;
+     display: flex;
+     justify-content: center;
+      align-items: center;
+}
 
 .hobbies{
     font-size: 30px;
 
 }
 
-.aboutIconsContainer{
-    width: 70%;
-    margin: auto 10%;
-    padding: 5%;
-    text-align: center;
-    
-
-}
-
 .abouthtml, .aboutcss, .aboutgit { 
     font-size: 64px;
-
 
 }
 
@@ -237,26 +277,10 @@ img[alt="autumn leaf"] {
     color: #e85d04;
 }
 
-
 .aboutcss:hover{
     color: #168dcc;
 
 }
-
-.aboutSectionContent{
-   width: 90%;
-   margin: auto 10%;
-   padding: 5%;
-   text-align: center;
-
- 
-}
-
-.aboutSectionContent p:first-child{
-    text-align: justify;
-    text-justify: inter-word;
-}
-
 
 .btn {
     background-color: DodgerBlue;
@@ -267,13 +291,11 @@ img[alt="autumn leaf"] {
     font-size: 20px;
   }
   
-  /* Darker background on mouse-over */
   .btn:hover {
     background-color: RoyalBlue;
   }
 
 /* Project page */
-
 
   .portfolioimg {
     height: 400px;
