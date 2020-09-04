@@ -215,19 +215,21 @@ img[alt="autumn leaf"] {
 }
 
 .aboutPhoto{
-  width:400px;
+  width:100%;
+  height: auto;
     
 }
 
 .aboutSectionContent{
-    width: 500px;
-    padding: 50px;
+    width: 80%;
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .aboutText{
+    width: 100%;
     font-family: 'Poppins', sans-serif; 
     display: flex;
     align-content: center;
@@ -561,7 +563,7 @@ img[alt="autumn leaf"] {
     width:100%;
 
 }
-    .text{
+    .aboutText{
     width: 90%;
 
 
