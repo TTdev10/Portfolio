@@ -1,3 +1,117 @@
+commit 0fcc51e4955d50aeb27c6c54389417a163364ed0
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Sep 4 21:59:03 2020 +1000
+
+    SRI generate and added to all pages
+
+commit b3c362d8d45e26ba1288a48fa9352d5bcf330a3c
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Sep 4 20:48:40 2020 +1000
+
+    contact form updated
+
+commit 9538277c3576bcf35f1cf5ec51f0b50cf81e4814
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Sep 4 17:31:03 2020 +1000
+
+    final changes to the about page and blog page and updating the responsiveness on mobile and tablet
+
+commit a35479f2e567b46b609f8f7bdfe630daac0186d8
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Sep 4 11:41:09 2020 +1000
+
+    fix up alignment in about me
+
+commit 9e8e718024e5d067c013274c3fc49827d2a40a38
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Fri Sep 4 02:50:30 2020 +1000
+
+    about me page updated and making all pages responsive on ipad and mobile
+
+commit 47bc28dd1d8e36991ad1df2e41bdf2063de08be3
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Thu Sep 3 21:57:20 2020 +1000
+
+    skills updated on profile page and added icons for hobbies and interest
+
+commit a7ce3daf42e6d225c3cabc0ee5bcd0b503808a11
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Thu Sep 3 16:53:09 2020 +1000
+
+    change profile image on about me
+
+commit d898ceb5f1dd905916255b0da9cf3ab95018c38f
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Thu Sep 3 13:15:47 2020 +1000
+
+    link repo to github
+
+commit a17b269a10eef14bcdedf90f718e30670ebedeb0
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Thu Sep 3 12:56:50 2020 +1000
+
+    targe blank added to all the social media icons so each icon open up to a new browser
+
+commit bcac74a175bd1de0add7e8f6c49ce39669397c7a
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Thu Sep 3 11:23:07 2020 +1000
+
+    adjusted the alignment in about me and and update the link for each project to open up in a new page
+
+commit 88f98b61762962cf576958383427fa5214c1f859
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Tue Sep 1 20:52:12 2020 +1000
+
+    css gradient effect added to the contact table
+
+commit 0af8c4afaeb90f7fd23016750a432748cf26250c
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Tue Sep 1 17:25:03 2020 +1000
+
+    project page added 6 boxes and link each box to github page
+
+commit be15f0fb1aa5df83e519261d2b81cd89e08ebbec
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 22:56:47 2020 +1000
+
+    comments added to each page
+
+commit 057c5a763dc4bd5bd1bb729adcdaf177a618f07d
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 21:17:39 2020 +1000
+
+    overlay effect added to the projects page
+
+commit 3a65bbc93969a193b90b566cd283299a7f6f3ba3
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 16:14:25 2020 +1000
+
+    fix up the project image adding overlay effect
+
+commit 85ed93af7b247abf9f20a65fbb014139645d41cc
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 15:36:33 2020 +1000
+
+    updated animation for leaf on all the pages
+
+commit 780bbe416d7ad36342fa9b0c994e254f1e1ed9f1
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 14:44:28 2020 +1000
+
+    5 blog post added with images and tetext and recent post included
+
+commit 6d1b441fcb54c480d0105186651e000e9e95f904
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Mon Aug 31 12:10:00 2020 +1000
+
+    linkedin profile page added to about page
+
+commit ee5fddd536962a49d02ec811b0fa81dd198afb2c
+Author: Tracey Tran <ttdev@MacBook-Pro.local>
+Date:   Sun Aug 30 21:44:16 2020 +1000
+
+    remove order list blog post
+
 commit 2777d3f298dc6ac90eda2b3073232635ab29bacc
 Author: Tracey Tran <ttdev@MacBook-Pro.local>
 Date:   Sun Aug 30 17:56:44 2020 +1000
@@ -148,9 +262,8 @@ Date:   Wed Aug 26 10:26:44 2020 +0000
 
     add basic html structures to html pages
 
-commit 41fa9f882433d7cc45da0151aa8bb0d02e4d1e12q
+commit 41fa9f882433d7cc45da0151aa8bb0d02e4d1e12
 Author: Tracey Tran <tracey@gmail.com>
 Date:   Wed Aug 26 10:08:58 2020 +0000
 
     created porfolio repository which includes the html and css files
-
