@@ -449,10 +449,6 @@ img[alt="autumn leaf"] {
 
 }
 
-
-
-
-
 /* Contact */
 
 /* contact form section */
@@ -540,7 +536,7 @@ img[alt="autumn leaf"] {
 
 /*Responsive Design layouts*/
 
-
+/* nav bar media breaks  */
 @media only screen and (max-width: 600px) {
     .navBarElementContainer {
         width: 100%;
@@ -578,12 +574,6 @@ img[alt="autumn leaf"] {
 
 
 @media only screen and (max-width: 600px) {
-    .autumnleaves {
-        width: 200%;
-    }
-}  
-
-@media only screen and (max-width: 600px) {
     .navBarElementContainer {
         width: 100%;
          display: flex;
@@ -601,6 +591,17 @@ img[alt="autumn leaf"] {
     }  
 
 }  
+
+
+/* Autumn leave animation media breaks */
+
+@media only screen and (max-width: 600px) {
+    .autumnleaves {
+        width: 200%;
+    }
+}  
+
+/* About section media breaks */
 
 @media only screen and (max-width: 900px) {
     .aboutSection {
@@ -638,7 +639,9 @@ img[alt="autumn leaf"] {
 
 }  
 
- @media only screen and (min-width: 1000px) {
+/* Project media breaks */
+
+@media only screen and (min-width: 1000px) {
     .portfolioGrid{
         margin: 0 auto;
         display: inline-grid;
@@ -660,7 +663,8 @@ img[alt="autumn leaf"] {
             display: none;
         } 
     }
-    
+
+    /* Blog page media breaks */
 
     @media only screen and (min-width: 800px) {
         #selfie {
