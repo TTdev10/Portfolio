@@ -64,7 +64,7 @@ The website contains information about me, projects that I've completed, blog pa
 
 ## Target Audience
 
-The target audience for this portfolio website are potential employers could be someone in HR or Senior Developer looking for the next developer to hire. Also could be for a client who is looking for a freelance developer.
+The target audience for this portfolio website are potential employers could be someone in HR or Senior Developer looking to hire the next developer. And could be for a client who is looking for a freelance developer.
 
 ## Tech Stack
 
